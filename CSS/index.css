@@ -1,0 +1,86 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+/* ------------------------ Clases utilitarias ------------------------------------*/
+a { text-decoration: none; color:rgb(255, 255, 255); }
+li { list-style: none;  display: inline-block; }
+.letra_blanca{color: rgb(255, 255, 255);}
+.letra_gris{ color: rgb(84, 104, 104);}
+.letra_verde{color: rgb(19, 191, 19);}
+.btn_verde{ background-color:limegreen;}
+.btn_transparente{ background-color: transparent;}
+.btn { 
+     text-align: center;
+     padding: 4px 2px;
+     border-radius: 0px;
+}
+.fondo_gris {background-color:rgb(53, 58, 64);}
+.fondo_blanco {background-color:rgb(255, 255, 255)};
+/* ------------------------------Header----------------------------------------------- */
+.logo {
+        width: 10px;
+        height:10px;   
+        /* display: flex;  */
+        }    
+.navegacion{
+    height: 60vh;
+    height: 60px;  
+    display: block; 
+    margin: 0%;
+    
+        }
+/* ----------------------------Header-Conferencia-------------------------------------- */
+.conferencia{
+    background-image: linear-gradient(to right top, #141515e2, #292e2fb2, #3f494bed, #57666a9f, #71848c80, #70838cba, #70828bd4, #6f818bab, #5361688b, #3842487a, #1f262994, #01070bb1),url(../Asset/img/ba1.jpg);
+    /* background-size:auto;  */
+    text-align:right; 
+    font-size: 1rem;
+    /* display: ; */
+}
+/* ---------------------------------Main-Oradores------------------------------------------ */
+#oradores{text-align: center;}
+.oradores {
+    height: 60vh;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 20px;
+    padding: 20px;
+    /* border: ; */
+    
+}
+img{
+    width: 100px;
+    height: 100px;}
+    /* display:; */
+
+.orador{
+        font-size: 1em;
+        text-align: center;
+        }
+/*------------------------------------ Main lugar y fecha ------------------------------ */
+.lyf_honolulu{
+    color: aqua;
+}
+/* -------------------------------Main Conviertete ------------------------------------- */
+.conviertete{text-align: center;}
+/* ----------------------------------Footer--------------------------------------------- */
+.footer {
+    height:50px;   
+    /* height: px;  */
+    background-image: linear-gradient(to right top, #1d3744, #1d3948, #1d3b4b, #1d3d4f, #1d3f53, #1d4157, #1e445a, #1e465e, #1e4963, #1e4c67, #1d4f6c, #1d5271);
+    text-align:justify; 
+    padding:20px 150px;
+    margin-top : 50px;
+    margin-left :0px;
+    margin-right:0px;
+    display:flex;
+}
+
+/*  
+margen
+borden
+pading*/

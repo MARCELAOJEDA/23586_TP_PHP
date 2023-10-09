@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto-Integrador </title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet"href="CSS/index.css">
+</head>
+<body>
+<header>
+    <section class="navegacion fondo_gris" >
+      <a href="#"><img class="logo" src="./Asset/img/codoacodo.png" alt="Logo" loading="lazy"></a>
+        <h2 class="letra_blanca">Conf. Bs. As.</h2>
+          <nav >
+            <ul>
+                <li><a class="letra_blanca">La conferencia</a></li>
+                <li><a class="letra_gris" href="#oradores">Los radores<a><li>
+                <li><a class="letra_gris" href="#lyf">Lugar y fecha</a></li>
+                <li><a class="letra_gris"href="#conviertete">Conviertete en orador</a></li>
+                <li><a class="letra_verde"href="./Pages/tickets.html"rel="noopener noreferrer"target="_blank">Comprar ticket</a></li>         
+            </ul>
+          </nav>
+    </section>
+    <section class="conferencia"> 
+            <h1 class="letra_blanca">Conf. Bs. As.</h1>
+            <p class="letra_blanca">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus eligendi officia, accusamus sunt necessitatibus placeat exercitationem laboriosam aliquam, vitae nam repellendus, quibusdam quidem expedita unde consequuntur vel quam rem iure!</p>
+            <button class="btn btn_transparente"><a class="letra_blanca" href="#conviertete">Quiero ser orador</a>
+            </button>
+            <button class="btn btn_verde"> <a class="letra_blanca"href="./Pages/tickets.html"target="_blank"rel="noopener noreferrer">Comprar ticket</a>
+            </button> 
+    </section>
+</header>
+
+<main class="main fondo_blanco">
+  <section >
+        <h2 id="oradores" ><div >Conoce a los </div>Oradores</h2>
+    <div class="oradores">   
+    <div class="orador">
+        <img src="./Asset/img/Steve_Jobs.jpg" alt="Steve Jobs"loading="lazy">
+        <h4>Javascript React</h4>
+        <h4>React</h4>
+        <h3>Steve Jobs</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem fuga, ab ut aspernatur cupiditate neque minus assumenda, facilis autem ipsa ipsam fugit. Veniam sit illum cum pariatur, provident fuga consequatur.</p>
+    </div>
+    <div class="orador">
+        <img src="./Asset/img/bill.jpg" alt="Bill Gate"loading="lazy">
+        <h4>Javascript React</h4>
+        <h4>React</h4>
+        <h3>Bill Gates</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem fuga, ab ut aspernatur cupiditate neque minus assumenda, facilis autem ipsa ipsam fugit. Veniam sit illum cum pariatur, provident fuga consequatur.</p>
+    </div>
+    <div class="orador">
+        <img src="./Asset/img/ada.jpeg" alt="Ada"loading="lazy">
+        <h4>Negocios Startups</h4>
+        <h4>Startups </h4>
+        <h3>Ada Lovelace</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem fuga, ab ut aspernatur cupiditate neque minus assumenda, facilis autem ipsa ipsam fugit. Veniam sit illum cum pariatur, provident fuga consequatur.</p>
+    </div>
+</div>
+</section>
+
+<section class="lyf fondo_gris letra_blanca">
+        <div class="lyf_honolulu">
+            <img src="./Asset/img/honolulu.jpg" alt="Honolulu"loading="lazy">
+        </div>
+        <div id="lyf" >
+             <h2 class="">Bs.As. Octubre</h2>
+             <p >Buenos Aires es la provincia y localidad más grande del estado de Argentina, en los Estados Unidos.Honolulu es la más sureña de entre las principales ciudades estadounidenses. Aunque el nombre de Honolulu se refiere al área urbana de la costa sureste de la isla de Oahu, la ciudad y el condado de Honolulu han formado una ciudad-condado consolidada que cubre toda la ciudad(aproximadamente 600km de superficie).</p>
+       <button class=" btn_transparente">
+         <a  href="./Pages/conferencias.html">Conocé más</a>
+        </button>
+    </div>
+    </section>
+    
+    <section class="conviertete fondo_blanco" >
+            <h2><div >Conviertete en</div>Orador</h2>
+            <p>Anótate como orador para dar una charla ignite. Cuéntanos de qué quieres hablar!</p>
+            <form action="">
+                <div>
+                <input type="text" id="nombre" name="nombreOrador" placeholder="Ingrese su nombre" required>
+                <input type="text" id="apellido" name="apellidOrador" placeholder="Ingrese su apellido" required>
+            </div>
+            <div>
+                <textarea cols="30" rows="10" id="comentario" name="comentariOrador" placeholder="Sobre qué quieres hablar"></textarea>
+                <p>Recuerda incluir un título para tu charla</p>
+            </div>
+            <div>
+                <!-- <input type="reset" value="Borrar"> -->
+                <button>
+                <input class="btn_verde" type="submit" value="Enviar">
+                </button>
+            </div>
+            </form>
+    </section>
+</main>
+
+<footer class="footer">
+     <nav>
+        <ul>
+            <li><a href="./Pages/preguntas.html">Preguntas Frecuentes</a></li>
+            <li><a href="./Pages/prensa.html">Prensa</a></li>
+            <li><a href="./Pages/contactanos.html" target="_blank"rel="noopener noreferrer">Contáctanos</a></li>
+            <li><a href="./Pages/conferencias.html" target="_blank"rel="noopener noreferrer">Conferencias</a></li>
+            <li><a href="./Pages/tyc.html" target="_blank"rel="noopener noreferrer">Términos y condiciones</a></li>  
+            <li><a href="./Pages/privacidad.html"target="_blank"rel="noopener noreferrer">Privacidad</a></li>
+            <li><a href="./Pages/estudiantes.html"target="_blank"rel="noopener noreferrer">Estudiantes</a></li>        
+        </ul>
+    </nav>
+       
+</footer>
+
+</body>
+</html>
